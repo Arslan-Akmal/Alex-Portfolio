@@ -54,7 +54,8 @@ alex-carter-portfolio/
 
 
 ## 🌍 Live Demo
-..
+https://alex-portfolio-new.netlify.app
+
 
 ## 🙋‍♂️ Author
 Name: Arslan Akmal
