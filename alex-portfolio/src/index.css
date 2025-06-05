@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  /* Autofill style for light mode */
+  input:-webkit-autofill,
+  textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important; /* white */
+    -webkit-text-fill-color: #1f2937 !important; /* gray-800 */
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  /* Autofill style for dark mode */
+  .dark input:-webkit-autofill,
+  .dark textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #1f2937 inset !important; /* gray-800 */
+    -webkit-text-fill-color: #f3f4f6 !important; /* gray-100 */
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+
+
